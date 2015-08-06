@@ -1,0 +1,7 @@
+/*
+para eliminar elementos dentro de Facturas_TPS
+*/
+delete from dbd_factura;
+delete from dbd_detalle_factura;
+delete from dbd_producto;
+delete from dbd_estado_transaccion;

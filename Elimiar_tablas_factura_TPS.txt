@@ -1,0 +1,7 @@
+/*
+para borrar Tablas
+*/
+drop table dbd_factura;
+drop table dbd_detalle_factura;
+drop table dbd_producto;
+drop table dbd_estado_transaccion;

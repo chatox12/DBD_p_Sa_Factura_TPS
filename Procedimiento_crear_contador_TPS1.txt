@@ -1,0 +1,14 @@
+create or replace procedure DBD_contador
+as
+m number:=1;
+begin 
+  while  m<20000000 loop
+    dbms_output.put_line('m = '||m);
+    m:=m+1;
+  end loop;
+end;
+
+/*
+para comprobar si esta bien el tiempo dentro del loop
+*/
+exec DBD_contador;

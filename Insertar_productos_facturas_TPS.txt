@@ -1,0 +1,39 @@
+/*
+para insertar datos en la tabla de productos 
+"DBD_PRODUCTO"
+*/
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('1', 'producto1', '10','14');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('2', 'producto2', '9','9');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('3', 'producto3', '8','4');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('4', 'producto4', '10','14');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('5', 'producto5', '12','17');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('6', 'producto6', '14','14');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('7', 'producto7', '15','12');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('8', 'producto8', '16','13');
+INSERT INTO bdd_producto (ID, nombre_p, precio, existencia) VALUES ('9', 'producto9', '20','15');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('10', 'producto10', '40','11');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('11', 'producto11', '10','16');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('12', 'producto12', '11','13');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('13', 'producto13', '1.5','14');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('14', 'producto14', '2.4','12');
+INSERT INTO dbd_producto (ID, nombre_p, precio, existencia) VALUES ('15', 'producto15', '9','14');
+
+/*
+si no funcion colocar esto
+*/
+
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('1', 'producto1', '10','14');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('2', 'producto2', '9','9');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('3', 'producto3', '8','4');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('4', 'producto4', '10','14');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('5', 'producto5', '12','17');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('6', 'producto6', '14','14');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('7', 'producto7', '15','12');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('8', 'producto8', '16','13');
+INSERT INTO "bdd_producto" (ID, nombre_p, precio, existencia) VALUES ('9', 'producto9', '20','15');
+INSERT INTO "ddb_producto" (ID, nombre_p, precio, existencia) VALUES ('10', 'producto10', '40','11');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('11', 'producto11', '10','16');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('12', 'producto12', '11','13');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('13', 'producto13', '1.5','14');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('14', 'producto14', '2.4','12');
+INSERT INTO "dbd_producto" (ID, nombre_p, precio, existencia) VALUES ('15', 'producto15', '9','14');
